@@ -1,0 +1,27 @@
+body, header, nav, footer, main, h1, div, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header{
+	font-family: "Pixelify Sans", Tiny5, Arial;
+}
+
+body{
+	background-color: #a2badb;
+}
+
+.map{
+	border: 8px solid #000;
+}
+
+img{
+	margin: 0 2%;
+}
+
+footer{
+	color: #FFF;
+	background-color: #000;
+	
+}

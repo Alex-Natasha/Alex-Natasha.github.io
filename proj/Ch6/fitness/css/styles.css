@@ -1,0 +1,96 @@
+body, header, nav, footer, main, h1, div, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header{
+	background-color: #000;
+	color: #FFF;
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 5px;
+	height: 160px;
+}
+
+.titlePORF {
+	padding-top: 7%;
+	font-size: 50px;
+}
+
+h4{
+	font-family: Tiny5, "Pixelify Sans", Arial;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 00% 1%;
+}
+
+/*NAVS*/
+
+nav{
+	text-align: center;
+	background-color:#5c5e66;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	font-size: 1.5em;
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 2.1em;
+}
+nav li a{
+	display: block;
+	color: #fff;
+	padding: .2em 3em;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+/*END OF NAVS*/
+
+body{
+	background-color: #a2badb;
+}
+
+.map{
+	border: 8px solid #000;
+	border-width: 3px;
+	border-radius: 10px;
+}
+
+p{
+	font-family: Tiny5, "Pixelify Sans", Arial;
+	padding: 0% 2%;
+}
+
+img{
+	margin: 0 2%;
+}
+
+footer{
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+}
+
+.project a{
+	text-decoration: none;
+	color: #000a8f;
+}
+
+.mobile{/*hide mobile class*/
+	display: block;
+}
+
+.tablet-desktop{/*hide desktop class*/
+	display: none;
+}

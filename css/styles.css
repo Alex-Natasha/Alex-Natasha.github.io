@@ -14,6 +14,11 @@ header{
 	height: 160px;
 }
 
+.titlePORF {
+	padding-top: 7%;
+	font-size: 50px;
+}
+
 h4{
 	font-family: Tiny5, "Pixelify Sans", Arial;
 	font-weight: bold;
@@ -48,6 +53,8 @@ nav li a{
 	text-align: center;
 }
 
+
+
 /*END OF NAVS*/
 
 body{
@@ -78,4 +85,12 @@ footer{
 .project a{
 	text-decoration: none;
 	color: #000a8f;
+}
+
+.mobile{/*hide mobile class*/
+	display: block;
+}
+
+.tablet-desktop{/*hide desktop class*/
+	display: none;
 }

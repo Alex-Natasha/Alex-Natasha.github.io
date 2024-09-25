@@ -61,6 +61,12 @@ body{
 	background-color: #a2badb;
 }
 
+.column{
+	padding: 0% 6%;
+	text-align: center;
+	display: inline-block;
+}
+
 .map{
 	border: 8px solid #000;
 	border-width: 3px;
@@ -77,6 +83,7 @@ img{
 }
 
 footer{
+	clear: both;
 	color: #FFF;
 	background-color: #000;
 	text-align: center;
@@ -94,3 +101,5 @@ footer{
 .tablet-desktop{/*hide desktop class*/
 	display: none;
 }
+
+/*@media screen and (min-width: 630px)*/

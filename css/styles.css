@@ -62,9 +62,10 @@ body{
 }
 
 .column{
-	padding: 0% 6%;
+	padding: 0% 5.91%;
 	text-align: center;
 	display: inline-block;
+	align-content: center;
 }
 
 .map{

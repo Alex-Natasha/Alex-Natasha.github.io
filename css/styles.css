@@ -1,4 +1,4 @@
-body, header, nav, footer, main, h1, div, img{
+body, header, nav, footer, main, h1, h2, h3, h4, div, img, ul, li{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -9,21 +9,17 @@ header{
 	color: #FFF;
 	font-family: "Pixelify Sans", Tiny5, Arial;
 	text-align: center;
-	font-size: 50px;
+	font-size: 35px;
 	margin-bottom: 5px;
 	height: 160px;
-}
-
-.titlePORF {
-	padding-top: 7%;
-	font-size: 50px;
+	padding: 2% 0% 3% 0%;
 }
 
 h4{
 	font-family: Tiny5, "Pixelify Sans", Arial;
 	font-weight: bold;
 	font-size: 1.2em;
-	padding: 00% 1%;
+	padding: 0% 1%;
 }
 
 /*NAVS*/
@@ -37,23 +33,21 @@ nav{
 nav ul{
 	list-style-type: none;
 	text-align: center;
+	padding: 0%;
 }
 nav li{
 	font-size: 1.5em;
 	font-family: "Pixelify Sans", Tiny5, Arial;
 	font-weight: bold;
-	display: inline-block;
-	font-size: 2.1em;
+	font-size: 1.5em;
 }
 nav li a{
 	display: block;
 	color: #fff;
-	padding: .2em 3em;
+	padding: .5em;
 	text-decoration: none;
 	text-align: center;
 }
-
-
 
 /*END OF NAVS*/
 
@@ -69,9 +63,15 @@ body{
 }
 
 .map{
+	width: 80%;
+	height: 50%;
 	border: 8px solid #000;
 	border-width: 3px;
 	border-radius: 10px;
+}
+
+.mapN{
+	font-family: Tiny5, "Pixelify Sans", Arial;
 }
 
 p{
@@ -99,8 +99,155 @@ footer{
 	display: block;
 }
 
-.tablet-desktop{/*hide desktop class*/
+.tablet-desktop{/*show desktop class*/
 	display: none;
 }
 
-/*@media screen and (min-width: 630px)*/
+
+
+											/*MEDIA TABLET BELOW*/
+@media screen and (min-width: 630px){
+	.mobile{
+		display: none;
+	}
+	
+	.tablet-desktop{
+		display: block;
+	}
+	
+	header{
+		background-color: #000;
+		color: #FFF;
+		font-family: "Pixelify Sans", Tiny5, Arial;
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 5px;
+		height: 160px;
+		padding: 3% 1% 0% 0%;
+	}
+
+	h4{
+		font-family: Tiny5, "Pixelify Sans", Arial;
+		font-weight: bold;
+		font-size: 1.2em;
+		padding: 0% 1%;
+	}
+
+	.map{
+		border: 8px solid #000;
+		border-width: 3px;
+		border-radius: 10px;
+	}
+
+	.mapN{
+		font-family: Tiny5, "Pixelify Sans", Arial;
+		font-size: 120%;
+		
+	}
+	
+	nav ul{
+	list-style-type: none;
+	text-align: center;
+	}
+	nav li{
+	font-size: 1.5em;
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 2.1em;
+	}
+	nav li a{
+	display: block;
+	color: #fff;
+	padding: .2em 3em;
+	text-decoration: none;
+	text-align: center;
+	}
+	
+}
+											/*MEDIA DESKTOP BELOW*/
+@media screen and (min-width: 1015px){
+	header{
+		background-color: #000;
+		color: #FFF;
+		font-family: "Pixelify Sans", Tiny5, Arial;
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 5px;
+		height: 160px;
+		padding: 3% 1% 0% 0%;
+	}
+
+	h4{
+		font-family: Tiny5, "Pixelify Sans", Arial;
+		font-weight: bold;
+		font-size: 1.2em;
+		padding: 0% 1%;
+	}
+
+	/*NAVS*/
+
+	nav{
+		text-align: center;
+		background-color:#5c5e66;
+		padding: 1%;
+		margin-bottom: 1%;
+	}
+	nav ul{
+		list-style-type: none;
+		text-align: center;
+	}
+	nav li{
+		font-size: 1.5em;
+		font-family: "Pixelify Sans", Tiny5, Arial;
+		font-weight: bold;
+		display: inline-block;
+		font-size: 2.1em;
+	}
+	nav li a{
+		display: block;
+		color: #fff;
+		padding: .2em 3em;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	/*END OF NAVS*/
+
+	body{
+		background-color: #a2badb;
+	}
+
+	.column{
+		padding: 0% 5.91%;
+		text-align: center;
+		display: inline-block;
+		align-content: center;
+	}
+
+	.map{
+		border: 8px solid #000;
+		border-width: 3px;
+		border-radius: 10px;
+		width: 400px; 
+		height: 350px;
+	}
+
+	.mapN{
+		font-family: Tiny5, "Pixelify Sans", Arial;
+	}
+
+	p{
+		font-family: Tiny5, "Pixelify Sans", Arial;
+		padding: 0% 2%;
+	}
+
+	img{
+		margin: 0 2%;
+	}
+
+}
+
+/*@media screen and(min-width: 1921px){
+	
+}*/

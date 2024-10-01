@@ -22,6 +22,30 @@ h4{
 	padding: 0% 1%;
 }
 
+ol li{
+	font-size: 1.5em;
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	font-weight: bold;
+	font-size: 1.2em;
+	list-style-type: circle;
+	list-style-position: inside;	
+}
+
+.Rskew{
+	background-color:#071659;
+	padding: 4%;
+	width: 100%;
+	border-radius: 100px;
+	text-align: center;
+	color: #49abd1;
+	font-size: 1.3em;
+}
+
+.yip{
+	margin-right: 1em;
+	float:right;
+}
+
 /*NAVS*/
 
 nav{
@@ -81,6 +105,8 @@ p{
 
 img{
 	margin: 0 2%;
+	border: 2px solid #071659;
+	border-radius: 50px;
 }
 
 footer{
@@ -187,5 +213,6 @@ footer{
 	img{
 		margin: 0 2%;
 	}
+	
 
 }

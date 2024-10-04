@@ -29,6 +29,7 @@ ol li{
 	font-size: 1.2em;
 	list-style-type: circle;
 	list-style-position: inside;	
+	text-shadow: 3px 3px #fff;
 }
 
 .Rskew{
@@ -102,6 +103,31 @@ p{
 	font-family: Tiny5, "Pixelify Sans", Arial;
 	padding: 0% 2%;
 }
+
+.design{
+	font-size: 20px;
+}
+
+.firstP{
+	padding-left: 10%;
+	grid-area: firstP;
+}
+.secondP{
+	grid-area: secondP;
+}
+
+/*.grid{
+	border: solid 2px #191919;
+}*/
+
+.grid-container{
+	display: grid;
+	grid-template-areas: 
+		'firstP secondP';
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 45px;
+}
+
 
 .me{/*width="200" height="234"*/
 	margin: 0 2%;

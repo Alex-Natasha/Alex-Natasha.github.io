@@ -103,10 +103,15 @@ p{
 	padding: 0% 2%;
 }
 
-img{
+.me{/*width="200" height="234"*/
 	margin: 0 2%;
 	border: 2px solid #071659;
 	border-radius: 50px;
+}
+
+.responsive{
+	width: 100%;
+	height: auto;
 }
 
 footer{
@@ -208,10 +213,6 @@ footer{
 
 	.mapN{
 		font-family: Tiny5, "Pixelify Sans", Arial;
-	}
-
-	img{
-		margin: 0 2%;
 	}
 	
 

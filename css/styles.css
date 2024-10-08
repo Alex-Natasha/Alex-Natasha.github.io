@@ -74,6 +74,10 @@ nav li a{
 	text-align: center;
 }
 
+nav li a:hover{
+	color: #b0c2ff;
+	background-image: linear-gradient(to right, #5c5e66,#122968d2,#5c5e66);
+}
 /*END OF NAVS*/
 
 body{
@@ -150,6 +154,10 @@ footer{
 .project a{
 	text-decoration: none;
 	color: #000a8f;
+}
+
+.project a:hover{
+	color: #24a3f8;
 }
 
 .mobile{/*hide mobile class*/

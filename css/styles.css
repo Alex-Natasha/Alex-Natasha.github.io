@@ -144,6 +144,25 @@ p{
 	height: auto;
 }
 
+.sprite{
+	width: 100%;
+	height: auto;
+}
+
+figure{
+	position: sticky;
+	left: 20px;
+	background: #3a3a3b70;
+	padding: 2%;
+}
+
+figcaption{
+	text-align: center;
+	font-family: Tiny5, "Pixelify Sans", Arial;
+	font-size: 150%;
+	color: #282280;
+}
+
 footer{
 	clear: both;
 	color: #FFF;

@@ -187,13 +187,66 @@ footer{
 
 table{
 	font-family: Tiny5, "Pixelify Sans", Arial;
-	background-color: #01002448;
+	background-color: #495072;
+	padding: 1% 3%;
+	border: 1px solid #01043144;
+	border-collapse: collapse;
+	font-size: large;
+}
+
+div table{
+	margin: 0% auto;
 }
 
 caption{
 	font-family: "Pixelify Sans", Tiny5, Arial;
-	background-color: #01064d;
-	color:#6455e2;
+	background-color: #040011;
+	color:#5f91ee;
+	font-size: 220%;
+	font-weight: bold;
+	padding: 1%;
+	border: 1px solid #040011;
+	border-bottom-color: #365faa56;
+}
+
+th, td{
+	border: 1px solid #040011;
+	padding: 1%;
+	color:#000000;
+}
+
+th{
+	background-color: #040011;
+	color:#5f91ee;
+	font-size: 1.5em;
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	font-weight: bold;
+}
+
+tr:nth-child(odd){
+	background-color: #5d668d;
+}
+
+td:first-child{
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	color:#01052e;
+	font-weight: bold;
+}
+
+.hob{
+	background-color: #495072;
+	color:#0c0725;
+	font-size: 1.2em;
+}
+.hob h3{
+	background-color: #000220;
+	color:#9dc8e6;
+	text-align: center;
+	font-size: 2.2em;
+	font-family: "Pizelify Sans", Tiny5, Arial;
+}
+.hob p:nth-child(odd){
+	background-color: #5d668d;
 }
 
 .mobile{/*hide mobile class*/

@@ -340,6 +340,41 @@ fieldset legend{
 	color:#0a0e4d
 }
 
+.art img{
+	margin: 5% 10%;
+	border: 5px solid #03012e;
+}
+
+.design{
+	height: 320px;
+	width: auto;
+}
+.design:nth-child(even){
+	height: 320px;
+	width: auto;
+	margin: 0px 0 0 170px;
+}
+.art img:hover{
+	border-color:#0a27c9;
+}
+.design:hover{
+	height: 340px;
+	width:auto;
+}
+
+.spotify{
+	padding: 0% 2% 2% 2%;
+}
+
+.spotP{
+	font-family: "Pixelify Sans", Tiny5, Arial;
+	text-align:center;
+	padding-top: 6% 0% 0% 0%;
+	font-size: 160%;
+	font-weight: bold;
+	background-color: #02071f;
+	color: #fff;
+}
 
 .mobile{/*hide mobile class*/
 	display: block;

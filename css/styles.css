@@ -113,12 +113,16 @@ p{
 }
 
 .firstP{
-	padding-left: 10%;
 	grid-area: firstP;
 }
 .secondP{
 	grid-area: secondP;
 }
+
+.thirdP{
+	grid-area: thirdP;
+}
+
 
 /*.grid{
 	border: solid 2px #191919;
@@ -127,13 +131,13 @@ p{
 .grid-container{
 	display: grid;
 	grid-template-areas: 
-		'firstP secondP';
-	grid-template-columns: 1fr 3fr;
+		'thirdP firstP secondP';
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 45px;
 }
 
 
-.me{/*width="200" height="234"*/
+.cat{/*width="200" height="234"*/
 	margin: 0 2%;
 	border: 2px solid #071659;
 	border-radius: 50px;
@@ -178,6 +182,8 @@ footer{
 .project a:hover{
 	color: #24a3f8;
 }
+
+/*table*/
 
 .mobile{/*hide mobile class*/
 	display: block;

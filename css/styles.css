@@ -376,6 +376,16 @@ fieldset legend{
 	color: #fff;
 }
 
+.videos{
+	padding: 0% 0% 0% 10%;
+	grid-column: auto auto;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10%;
+	display: grid;
+	/*grid-template-areas: 
+		'thirdP firstP secondP';*/
+}
+
 .mobile{/*hide mobile class*/
 	display: block;
 }

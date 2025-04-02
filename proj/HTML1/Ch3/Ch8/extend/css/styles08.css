@@ -1,0 +1,45 @@
+/*Natasha Andreyko, 10/9/24*/
+
+body{
+    background-color: #ffe5dc;
+    font-family: sans-serif;
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+    padding: 1%;
+    border: solid 1px #000;
+}
+
+table{
+    border: 5px solid #fd4d0c;
+    box-shadow: 10px 10px 8px #792101;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th{
+    background-color: #792101;
+    color:#ffe5dc;
+    border-color: #fe9772;
+}
+
+td{
+    border-color: #792101;
+}
+
+caption{
+    color: #792101;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+tr:nth-child(odd){
+    background-color: #fe9772;
+}
+
+footer{
+    text-align: center;
+    font-size: 70%;
+    padding-top: 10%;
+}

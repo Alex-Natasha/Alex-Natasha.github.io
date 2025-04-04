@@ -3,7 +3,7 @@
       Project 03-03
 
       Application to generate a movie list
-      Author: 
+      Author: natasha
       Date:   
 
       Filename: project03-03.js
@@ -57,4 +57,11 @@ links[7] = "https://www.imdb.com/title/tt0050083/?ref_=adv_li_tt";
 links[8] = "https://www.imdb.com/title/tt1375666/?ref_=adv_li_tt";
 links[9] = "https://www.imdb.com/title/tt0137523/?ref_=adv_li_tt";
 
+let htmlCode = "";
 
+for(var i = 0; i<titles.length; i++){
+      htmlCode += "<tr> <td> <a href='" + links[i] + "'>" + titles[i] + "</a></td> <td>" + summaries[i] + "</td> <td>" + ratings[i] + "</td> </tr>";
+}
+
+let tableBody = document.getElementsByTagName("tbody")[0];
+tableBody.innerHTML = htmlCode;

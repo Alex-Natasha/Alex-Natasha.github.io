@@ -3,7 +3,7 @@
       Project 03-04
 
       Application to write a list of customer reviews
-      Author: 
+      Author: natasha
       Date:   
 
       Filename: project03-04.js
@@ -20,4 +20,28 @@ let reviews = [
    "The latest version of Dance Off improves upon the 8th Edition only slightly; still is one of the best dance-style games on the market.",
 ];
 let reviewTitles = ["My Favorite Workout Game", "Poor Choreography", "Buggy with Poor Tech Support", "Nice Improvement"];
+
+function starImages(rating){
+      var imageText = "";
+      for(i=1;i<rating;i++){
+            imageText+="<img src='star.png' alt=''>"
+      }
+      return imageText;
+}
+
+for(var i=0;i<reviewers.length;i++){
+      var reviewCode =""; 
+      if(reviewType[i] === "P"){
+            reviewCode += "<table class='prime'>";
+      }else if(reviewType[i] === "N"){
+            reviewCode += "<table class = 'new'>"
+      }else{
+            reviewCode +="<table>"
+      }
+      reviewCode += "<caption>" + reviewTitles [i] + "</caption> <tr><th>By</th><td>" + reviewers[i] + "</td></tr>";
+      reviewCode += "<tr><th>Review Date</th><td>" + reviewDates[i] + "</td></tr>";
+      reviewCode += "<tr><td colspan='2'>" + reviews[i] + " </td></tr></table>";
+
+      document.getElementsByTagName("article")[0].insertAdjacentHTML("beforeend", reviewCode);
+}
 

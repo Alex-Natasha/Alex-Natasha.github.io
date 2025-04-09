@@ -23,7 +23,7 @@ let reviewTitles = ["My Favorite Workout Game", "Poor Choreography", "Buggy with
 
 function starImages(rating){
       var imageText = "";
-      for(i=1;i<rating;i++){
+      for(var i=0;i<rating;i++){
             imageText+="<img src='star.png' alt=''>"
       }
       return imageText;
@@ -40,6 +40,7 @@ for(var i=0;i<reviewers.length;i++){
       }
       reviewCode += "<caption>" + reviewTitles [i] + "</caption> <tr><th>By</th><td>" + reviewers[i] + "</td></tr>";
       reviewCode += "<tr><th>Review Date</th><td>" + reviewDates[i] + "</td></tr>";
+      reviewCode += "<tr><th>Rating</th><td>"+starImages(stars[i])+"</td></tr>";
       reviewCode += "<tr><td colspan='2'>" + reviews[i] + " </td></tr></table>";
 
       document.getElementsByTagName("article")[0].insertAdjacentHTML("beforeend", reviewCode);

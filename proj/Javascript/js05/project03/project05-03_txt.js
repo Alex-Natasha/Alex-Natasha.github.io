@@ -18,7 +18,7 @@ const heading = "H2";
 for (let n = sourceDoc.firstElementChild; n!=null; n=n.nextElementSibling){
       if(n.nodeName === heading){
             var anchor = document.createElement("a");
-            anchor.setAttribute("name", "docLink" + headingCount);
+            anchor.setAttribute("name", "doclink" + headingCount);
             n.insertBefore(anchor, n.firstChild);
 
             var listItem = document.createElement("li");

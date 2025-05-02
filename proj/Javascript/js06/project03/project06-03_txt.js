@@ -11,7 +11,7 @@
 */
 
 var useShip = document.getElementById("useShip");
-useShip.addEventListener("click", copyShippingToBilling());
+useShip.addEventListener("click", copyShippingToBilling);
 
 function copyShippingToBilling(){
       if(useShip.checked){
@@ -29,7 +29,7 @@ function copyShippingToBilling(){
       var formElements = document.querySelectorAll('input[type="text"]');
       var fieldCount = formElements.length;
       var errorBox = document.getElementById("errorBox");
-      for(var i = 0; i<formElements.length; i++){
+      for(var i = 0; i<fieldCount; i++){
             formElements[i].addEventListener("invalid", showValidationError());
       }
       function showValidationError(evt){
